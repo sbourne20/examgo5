@@ -12,7 +12,7 @@ package main
 
 func main() {
 	a := App{}
-	//a.Initialize("root", "@Bourne20", "bkd")
-	a.Initialize("root", "Master199", "bkd")
+	a.Initialize("root", "@Bourne20", "bkd")
+	//a.Initialize("root", "Master199", "bkd")
 	a.Run(":8080")
 }
